@@ -45,9 +45,9 @@ if ($PSVersionTable.PSVersion.Major -gt $PSMinVersion) {
 
   # Clone to .spicetify.
   Write-Part "DOWNLOADING    "; Write-Emphasized $sp_dot_dir
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Astromations/Hazy/main/color.ini" -UseBasicParsing -OutFile "$sp_dot_dir\Hazy\color.ini"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Astromations/Hazy/main/user.css" -UseBasicParsing -OutFile "$sp_dot_dir\Hazy\user.css"
-  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Astromations/Hazy/main/theme.js" -UseBasicParsing -OutFile "$sp_dot_dir\Hazy\theme.js"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/thatguystephen/thatguystephen.github.io/refs/heads/main/color.ini" -UseBasicParsing -OutFile "$sp_dot_dir\Hazy\color.ini"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/thatguystephen/thatguystephen.github.io/refs/heads/main/user.css" -UseBasicParsing -OutFile "$sp_dot_dir\Hazy\user.css"
+  Invoke-WebRequest -Uri "https://raw.githubusercontent.com/thatguystephen/thatguystephen.github.io/refs/heads/main/theme.js" -UseBasicParsing -OutFile "$sp_dot_dir\Hazy\theme.js"
   Write-Done
 
   # Installing.
