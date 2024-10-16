@@ -3,7 +3,7 @@
     script.setAttribute("type", "text/javascript");
     script.setAttribute(
       "src",
-      "C:\Users\Steph\GitHub\Hazy\hazy.js"
+      "https://raw.githubusercontent.com/thatguystephen/thatguystephen.github.io/refs/heads/main/hazy.js"
     );
     document.head.appendChild(script);
   })();
